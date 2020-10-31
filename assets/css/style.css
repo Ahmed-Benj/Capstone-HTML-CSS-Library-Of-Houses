@@ -15,6 +15,21 @@
   header nav {
     flex-direction: column;
   }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .button-search,
+  .input-search {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-search {
+    width: 15%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
