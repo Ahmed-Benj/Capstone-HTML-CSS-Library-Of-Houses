@@ -2,32 +2,60 @@
   background-color: #d4574a;
 }
 
-.color-rougebordeaux {
-  color: #d4574a;
-}
-
 .bg-lightgray {
   background-color: #929090e7;
-}
-
-.color-lightgray {
-  color: #929090e7;
 }
 
 .bg-lightblue {
   background-color: #7db1db;
 }
 
+.bg-dark0 {
+  background-color: #000;
+}
+
+.color-rougebordeaux {
+  color: #d4574a;
+}
+
+.color-lightgray {
+  color: #929090e7;
+}
+
 .color-lightblue {
   color: #7db1db;
+}
+
+.color-dark {
+  color: #000;
 }
 
 .h-20 {
   height: 20%;
 }
 
-.color-dark {
-  color: #000;
+.h-30 {
+  height: 30%;
+}
+
+.border-radius-69 {
+  border-radius: 69%;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.height-1000 {
+  height: 1000px;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-20 {
+  width: 20%;
 }
 
 .navbar-logo img {
@@ -83,20 +111,22 @@
   height: 220px;
 }
 
-.border-radius-69 {
-  border-radius: 69%;
+footer {
+  height: 400px;
 }
 
-.height-300 {
-  height: 300px;
+.top-footer,
+.mid-footer {
+  padding: 40px 150px 20px 150px;
 }
 
-.height-1000 {
-  height: 1000px;
+.top-footer ul {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
-.w-33 {
-  width: 33%;
+.bot-footer {
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
