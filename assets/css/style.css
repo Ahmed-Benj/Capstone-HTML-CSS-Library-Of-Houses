@@ -2,6 +2,14 @@
   background-color: #d4574a;
 }
 
+.color-rougebordeaux {
+  color: #d4574a;
+}
+
+.h-10 {
+  height: 10%;
+}
+
 .color-dark {
   color: #000;
 }
@@ -70,8 +78,6 @@
 
 .info-grid {
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15%;
-  display: grid;
 }
 
 .info-grid h2 {
@@ -85,4 +91,22 @@
     padding-top: 4rem;
     grid-gap: 2rem;
   }
+}
+
+.grid-container {
+  display: grid;
+}
+
+.info-bars-image {
+  width: 75%;
+  height: 75%;
+  border-radius: 69%;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.w-33 {
+  width: 33%;
 }
