@@ -25,3 +25,12 @@
 #buttons-size-filter-menu {
   height: 50px;
 }
+
+.search-result-article {
+  width: 300px;
+}
+
+.search-result-img {
+  height: 240px;
+  width: 240px;
+}
