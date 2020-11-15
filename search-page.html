@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script src="https://kit.fontawesome.com/099118c311.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/search-page.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link
+      rel="icon"
+      href="assets\img\uLgs-NCV.jpg"
+    />
+    <title>Search</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-rougebordeaux px-3">
+        <a class="navbar-logo d-flex align-items-center text-white">
+          <img src="assets\img\uLgs-NCV.jpg" href="#" alt="logo">
+          <span class="h2 ml-2">Green Olive Real Estate</span>
+        </a>
+        
+        <div class="d-flex">
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item p-2 m-2">
+              <a class="nav-link text-white" href="#">
+                <i class="fas fa-search"></i>
+                <span class="ml-1 d-none-u-991">Homes</span>
+              </a>
+            </li>
+            <li class="nav-item p-2 m-2">
+              <a class="nav-link text-white" href="#">
+                <i class="far fa-user"></i>
+                <span class="ml-1 d-none-u-991">About</span>
+              </a>
+            </li>
+            <li class="nav-item p-2 m-2">
+              <a class="nav-link text-white" href="#">
+                <i class="fas fa-rss"></i>
+                <span class="ml-1 d-none-u-991">Blog</span>
+              </a>
+            </li>
+            <li class="nav-item p-2 m-2">
+              <a class="nav-link text-white">
+                <i class="fas fa-bars"></i>
+                <span class="ml-1 d-none-u-991">More</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="d-flex flex-column align-items-center m-5 p-5 text-center bg-gray-filter">
+        <h1>Filter by category, province, or city</h1>
+        <div class="filter d-flex flex-row">
+          <div class="d-flex flex-column p-2 justify-content-center">
+            <label for="category" class="font-weight-bold">CATEGORY:*</label>
+            <select name="Province">
+              <option value="">Choose...</option>
+              <option value="AP">Appartment</option>
+              <option value="DX">Duplex</option>
+              <option value="HO">House</option>
+              <option value="TR">Triplex</option>
+              <option value="CO">Condo</option>
+              <option value="COM">Commercial</option>
+            </select>
+          </div>
+          <div class="d-flex flex-column p-2 justify-content-center">
+            <label for="Province" class="font-weight-bold">PROVINCE:</label>
+            <select name="Province">
+              <option value="">Choose...</option>
+              <option value="AB">Alberta</option>
+              <option value="BC">British Columbia</option>
+              <option value="MB">Manitoba</option>
+              <option value="NB">New Brunswick</option>
+              <option value="NL">Newfoundland and Labrador</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="ON">Ontario</option>
+              <option value="PE">Prince Edward Island</option>
+              <option value="QC">Quebec</option>
+              <option value="SK">Saskatchewan</option>
+              <option value="NT">Northwest Territories</option>
+              <option value="NU">Nunavut</option>
+              <option value="YT">Yukon</option>
+            </select>
+          </div>
+          <div class="d-flex flex-column p-2 justify-content-center">
+            <label for="city" class="font-weight-bold">CITY:</label>
+            <select name="city">
+              <option value="">Choose...</option>
+              <option value="1">Toronto</option>
+              <option value="2">Montréal</option>
+              <option value="3">Vancouver</option>
+              <option value="4">Ottawa</option>
+              <option value="5">Edmonton</option>
+              <option value="6">Calgary</option>
+              <option value="7">Quebéc</option>
+              <option value="8">Winnipeg</option>
+              <option value="9">Hamilton</option>
+              <option value="10">London</option>
+              <option value="11">Kitchener</option>
+              <option value="12">St Catharines-Niagara</option>
+              <option value="13">Halifax</option>
+              <option value="14">Victoria</option>
+              <option value="15">Windsor</option>
+              <option value="16">Oshawa</option>
+              <option value="17">Saskatoon</option>
+              <option value="18">Regina</option>
+              <option value="19">St John's</option>
+              <option value="20">Sudbury</option>
+              <option value="21">Chicoutimi</option>
+              <option value="22">Sherbrooke</option>
+              <option value="23">Kingston</option>
+              <option value="24">Trois-Rivières</option>
+              <option value="25">Kelowna</option>
+              <option value="26">Abbotsford</option>
+              <option value="27">Saint John</option>
+              <option value="28">Thunder Bay</option>
+              <option value="29">Barrie</option>
+              <option value="30">Sydney</option>
+            </select>
+          </div>
+          <div class="d-flex flex-row justify-content-center p-2 buttons-filter-menu" id="buttons-size-filter-menu">
+            <button class="bg-blue-search text-white mh-25">Search</button>
+            <button class="bg-yellow-mustard text-white mh-25"><i class="fas fa-edit"></i>Clear filter</button>
+          </div>
+        </div>
+      </section>
+      
+
+    </main>
+    <footer class="text-white">
+      <div class="top-footer bg-dark0 d-flex justify-content-center align-items-center p-50-0">
+        <ul class="d-flex list-unstyled">
+          <li class="font-weight-bold m-3"><a class="text-white" href="index.html">HOME</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">SEARCH</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">ABOUT US</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">ADVERTISE</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">FACEBOOK</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">TWITTER</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">BLOG</a></li>
+          <li class="font-weight-bold m-3"><a class="text-white" href="#">GOOGLE+</a></li>
+        </ul>
+      </div>
+      <div class="mid-footer bg-dark0 d-flex justify-content-center align-items-center flex-wrap p-50-0">
+        <div class="align-self-start m-3 col-small-12">
+          <div><h5>SUBSCRIBE</h5></div>
+          <div class="d-flex">
+            <input type="text" class="form-control w-50">
+            <button type="search" class="form-control bg-lightgray text-white border-0 w-33">send</button>
+          </div>
+        </div>
+        <div class="align-self-start m-3 col-small-12">
+          <div><h5>CONTACT</h5></div>
+          <div><p>Have a question or submission ?<br><a href="#" class="color-rougebordeaux">info@greenolivere.com</a></p></div>
+        </div>
+        <div class="w-33 align-self-start m-3 col-small-12">
+          <div><h5>ABOUT</h5></div>
+          <div><p>Green Olive Real Estate is an online platform that assists people to find a suitable house by simply searching by country, 
+            house type, surface etc
+            <a href="#" class="color-rougebordeaux">Learn more...</a></p></div>
+        </div>
+      </div>
+      <div class="bot-footer bg-secondary d-flex justify-content-around align-items-center p-50-0 flex-column-max-820">
+        <div class="w-20 d-flex justify-content-between p-30-max-820">
+          <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="p-30-max-820"><p class="text-uppercase m-0 text-center">© Green Olive Real Estate 2020. All rights reserved. Powered by Ahmed Ben Jmii. Love and awesomensess</p></div>
+      </div>
+
+    </footer>   
+  </body>
+</html>
