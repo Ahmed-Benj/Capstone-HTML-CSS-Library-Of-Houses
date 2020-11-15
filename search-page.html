@@ -16,7 +16,7 @@
 
     <link
       rel="icon"
-      href="assets\img\uLgs-NCV.jpg"
+      href="assets/img/uLgs-NCV.jpg"
     />
     <title>Search</title>
   </head>
@@ -25,7 +25,7 @@
     <header>
       <nav class="navbar navbar-light bg-rougebordeaux px-3">
         <a class="navbar-logo d-flex align-items-center text-white" href="index.html">
-          <img src="assets\img\uLgs-NCV.jpg" alt="logo">
+          <img src="assets/img/uLgs-NCV.jpg" alt="logo">
           <span class="h2 ml-2">Green Olive Real Estate</span>
         </a>
         
@@ -64,7 +64,7 @@
         <div class="filter d-flex flex-row">
           <div class="d-flex flex-column p-2 justify-content-center">
             <label for="category" class="font-weight-bold">CATEGORY:*</label>
-            <select name="Province">
+            <select id="category" name="Province">
               <option value="">Choose...</option>
               <option value="AP">Appartment</option>
               <option value="DX">Duplex</option>
@@ -76,7 +76,7 @@
           </div>
           <div class="d-flex flex-column p-2 justify-content-center">
             <label for="Province" class="font-weight-bold">PROVINCE:</label>
-            <select name="Province">
+            <select id="Province" name="Province">
               <option value="">Choose...</option>
               <option value="AB">Alberta</option>
               <option value="BC">British Columbia</option>
@@ -95,7 +95,7 @@
           </div>
           <div class="d-flex flex-column p-2 justify-content-center">
             <label for="city" class="font-weight-bold">CITY:</label>
-            <select name="city">
+            <select id="city" name="city">
               <option value="">Choose...</option>
               <option value="1">Toronto</option>
               <option value="2">Montréal</option>
@@ -196,8 +196,8 @@
         <div class="align-self-start m-3 col-small-12">
           <div><h5>SUBSCRIBE</h5></div>
           <div class="d-flex">
-            <input type="text" class="form-control w-50">
-            <button type="search" class="form-control bg-lightgray text-white border-0 w-33">send</button>
+            <input class="form-control w-50">
+            <button type="button" class="form-control bg-lightgray text-white border-0 w-33">send</button>
           </div>
         </div>
         <div class="align-self-start m-3 col-small-12">
