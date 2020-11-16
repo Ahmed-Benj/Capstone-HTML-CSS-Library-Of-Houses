@@ -33,10 +33,10 @@ google maps API
 
 #### Get a local copy
 
-Download the repository as zip file OR git clone "link-of-clone" to your local drive
-Open the index.html file inside the webbrowser
-To navigate to the search page : Click on the search button
-To Check more details on the homes in the search page : Click on more info link
+1) Download the repository as zip file OR git clone "link-of-clone" to your local drive
+2) Open the index.html file inside the webbrowser
+3) To navigate to the search page : Click on the search button
+4) To Check more details on the homes in the search page : Click on more info link
 
 ## Authors
 
