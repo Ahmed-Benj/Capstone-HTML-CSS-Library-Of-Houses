@@ -34,3 +34,9 @@
   height: 240px;
   width: 240px;
 }
+
+@media (max-width: 600px) {
+  .results-pack {
+    justify-content: center !important;
+  }
+}
