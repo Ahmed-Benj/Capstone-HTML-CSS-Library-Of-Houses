@@ -24,12 +24,19 @@ google maps API
 
 ## Live Demo
 
-- [Live Demo Link](https://musing-rosalind-277fa5.netlify.app/)
+- [Live Demo Link](https://youthful-carson-6beb2b.netlify.app/)
 
 #### Prerequisites
 
 - Browser
 - Internet
+
+#### Get a local copy
+
+Download the repository as zip file OR git clone "link-of-clone" to your local drive
+Open the index.html file inside the webbrowser
+To navigate to the search page : Click on the search button
+To Check more details on the homes in the search page : Click on more info link
 
 ## Authors
 
