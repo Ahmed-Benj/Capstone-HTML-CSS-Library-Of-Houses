@@ -33,10 +33,10 @@ google maps API
 
 #### Get a local copy
 
-1) Download the repository as zip file OR git clone "link-of-clone" to your local drive
-2) Open the index.html file inside the webbrowser
-3) To navigate to the search page : Click on the search button
-4) To Check more details on the homes in the search page : Click on more info link
+1. Download the repository as zip file OR git clone "link-of-clone" to your local drive
+2. Open the index.html file inside the webbrowser
+3. To navigate to the search page : Click on the search button
+4. To Check more details on the homes in the search page : Click on more info link
 
 ## Authors
 
@@ -44,6 +44,10 @@ google maps API
 
 - Github [@githubhandle](https://github.com/Ahmed-Benj)
 - Linkedin [linkedin](https://www.linkedin.com/in/ahmed-b-05600992/)
+
+## Credits for the design idea
+
+Mathew Njuguna
 
 ## 🤝 Contributing
 
