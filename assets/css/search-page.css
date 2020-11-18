@@ -1,0 +1,42 @@
+.bg-gray-filter {
+  background-color: #eee;
+}
+
+.bg-yellow-mustard {
+  background-color: #e6ac5b;
+}
+
+.bg-blue-search {
+  background-color: #457eb4;
+}
+
+@media (max-width: 768px) {
+  .filter {
+    flex-direction: column !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .buttons-filter-menu {
+    align-self: flex-end;
+  }
+}
+
+#buttons-size-filter-menu {
+  height: 50px;
+}
+
+.search-result-article {
+  width: 300px;
+}
+
+.search-result-img {
+  height: 240px;
+  width: 240px;
+}
+
+@media (max-width: 631px) {
+  .results-pack {
+    justify-content: center !important;
+  }
+}
