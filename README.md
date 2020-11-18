@@ -24,7 +24,7 @@ google maps API
 
 ## Live Demo
 
-- [Live Demo Link](https://youthful-carson-6beb2b.netlify.app/)
+- [Live Demo Link](https://upbeat-roentgen-4cfac6.netlify.app/)
 
 #### Prerequisites
 
